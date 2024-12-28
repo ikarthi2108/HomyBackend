@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { addProperty, getProperties } = require('../controllers/propertyController');
+const { addProperty, getProperties } = require('../controllers/PropertyController');
 
 // Add property route (without authentication middleware)
 router.post('/', addProperty);
