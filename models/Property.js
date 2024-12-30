@@ -16,6 +16,7 @@ const PropertySchema = new mongoose.Schema(
         floors: { type: Number },
         amenities: { type: [String], default: [] },
         address: { type: String },
+        ownerContactNumber:{type: String},
         location: {
             lat: { type: Number, required: true },
             lng: { type: Number, required: true },

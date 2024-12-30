@@ -22,6 +22,7 @@ exports.addProperty = async (req, res) => {
             amenities,
             address,
             location,
+            ownerContactNumber,
             images, // Image URLs from frontend
             userId,
             city, // City provided by the user
@@ -57,6 +58,7 @@ exports.addProperty = async (req, res) => {
             yearBuilt,
             floors,
             amenities,
+            ownerContactNumber,
             address,
             location,
             city, // Use the city provided by the user
